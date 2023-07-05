@@ -226,35 +226,7 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: "Photo Editing",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Photo",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Photoshop",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: <a href="https://www.google.com/">Google</a>,
-      },
-    ],
-  },
-
-  {
-    id: 2,
-    img: Work2,
-    title: "Website Design",
+    title: "Todo List",
     details: [
       {
         icon: <FiFileText />,
@@ -264,17 +236,45 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "HR",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "React JS",
+        desc: "React.js",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: <a href="https://www.google.com/">Google</a>,
+        desc: <a href="https://todolist-pi-flame.vercel.app/" target="_blank">Todolist</a>,
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    img: Work2,
+    title: "E-commerce Booking",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Website",
+      },
+      {
+        icon: <FiUser />,
+        title: "Client : ",
+        desc: "HR",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "React.js",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: <a href="https://travel-front-delta.vercel.app/home" target="_blank">BookingTravel</a>,
       },
     ],
   },
@@ -282,27 +282,31 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: "Video Editing",
+    title: "E-commerce Store",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Video",
+        desc: "Website",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "HR",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Premium",
+        desc: "Next.js",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: <a href="https://www.google.com/">Google</a>,
+        desc: (
+          <a href="https://ecomshopping.vercel.app/" target="_blank">
+            MiloStore
+          </a>
+        ),
       },
     ],
   },

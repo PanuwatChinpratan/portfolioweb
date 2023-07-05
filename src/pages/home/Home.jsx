@@ -13,7 +13,7 @@ const Home = () => {
           <h1 className="home__title">
             <span>I'm MILO </span>So Cool
           </h1>
-          <p className="home__description">Introduce yourself at least Sawasdee</p>
+          <p className="home__description">Introduce yourself "Hello!"</p>
           <Link to="/about" className="button">
             About me
             <span className="button__icon">

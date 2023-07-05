@@ -1,7 +1,7 @@
 import React from "react";
 import Miloinfo from "../../components/Miloinfo";
 import { FaDownload } from "react-icons/fa";
-import CV from "../../assets/milo-cv.pdf";
+import CV from "../../assets/Milo-cv.pdf";
 import Stats from "../../components/Stats";
 import "./about.css";
 import Skills from "./Skills";

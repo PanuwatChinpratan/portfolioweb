@@ -189,7 +189,7 @@ export const skills = [
 
   {
     id: 5,
-    title: "NodeJS",
+    title: "Node.js",
     percentage: "(basic)",
   },
 
@@ -207,12 +207,12 @@ export const skills = [
 
   {
     id: 8,
-    title: "ReactJS",
+    title: "React.js",
     percentage: "(basic)",
   },
   {
     id: 9,
-    title: "NextJS",
+    title: "Next.js",
     percentage: "(basic)",
   },
   {

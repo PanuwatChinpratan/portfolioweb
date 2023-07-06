@@ -43,7 +43,7 @@ const ContactUs = () => {
         <div className="contact__data">
           <h3 className="contact__title">MILO</h3>
           <p className="contact__description">
-          if you contact me I will get back to you as soon as possible! thank you.
+          If you contact me I will get back to you as soon as possible! Thank you.
           </p>
           <div className="contact__info">
             <div className="info__item">

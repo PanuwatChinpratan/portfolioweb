@@ -16,7 +16,7 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "bootstrap": "^5.2.3",
     "emailjs": "^4.0.2",
-    "feather-icons": "^4.29.0",
+    "feather-icons": "^4.29.0",  
     "html-react-parser": "^3.0.16",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",

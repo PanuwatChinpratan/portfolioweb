@@ -1,12 +1,15 @@
 .portfolio__container {
-  grid-template-columns: repeat(3);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
 }
-
 .portfolio__item {
   position: relative;
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
+  animation: waveAnimation 3s ease-in-out infinite;
 }
 .portfolio__img {
   height: 250px;
@@ -99,4 +102,16 @@
   font-size: var(--h2-font-size);
   letter-spacing: 2px;
   margin-bottom: 24px;
+}
+
+@keyframes waveAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

@@ -11,7 +11,7 @@ const Home = () => {
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title">
-            <span>I'm MILO </span>So Cool
+           I'm MILO  <span className="wave">So Cool</span>
           </h1>
           <p className="home__description">Introduce yourself "Hello!"</p>
           <Link to="/about" className="button">

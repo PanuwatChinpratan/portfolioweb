@@ -153,13 +153,13 @@ export const skills = [
   {
     id: 1,
     title: "HTML",
-    percentage: "(basic)",
+    percentage: "(Basic)",
   },
 
   {
     id: 2,
     title: "Javascript",
-    percentage: "(basic)",
+    percentage: "(Basic)",
   },
 
   {
@@ -171,13 +171,13 @@ export const skills = [
   {
     id: 4,
     title: "MongoDB",
-    percentage: "(basic)",
+    percentage: "(Basic)",
   },
 
   {
     id: 5,
     title: "Node.js",
-    percentage: "(basic)",
+    percentage: "(Basic)",
   },
 
   {
@@ -189,23 +189,23 @@ export const skills = [
   {
     id: 7,
     title: "Git",
-    percentage: "(basic)",
+    percentage: "(Basic)",
   },
 
   {
     id: 8,
     title: "React.js",
-    percentage: "(basic)",
+    percentage: "(Basic)",
   },
   {
     id: 9,
     title: "Next.js",
-    percentage: "(basic)",
+    percentage: "(Basic)",
   },
   {
     id: 10,
     title: "Tailwind",
-    percentage: "(basic)",
+    percentage: "(Basic)",
   },
 ];
 

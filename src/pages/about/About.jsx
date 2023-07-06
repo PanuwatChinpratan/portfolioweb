@@ -9,28 +9,6 @@ import { resume } from "../../data";
 import ResumeItem from "../../components/ResumeItem";
 
 const About = () => {
-  useEffect(() => {
-    const fadeItems = document.querySelectorAll(".resume__item, .skills");
-
-    const handleScroll = () => {
-      fadeItems.forEach((item) => {
-        const position = item.getBoundingClientRect().top;
-        const windowHeight = window.innerHeight;
-
-        if (position < windowHeight * 0.75 && position > 0) {
-          item.classList.add("animated");
-        } else {
-          item.classList.remove("animated");
-        }
-      });
-    };
-
-    document.addEventListener("scroll", handleScroll);
-    return () => {
-      document.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   return (
     <main className="section container">
       <section className="about">
@@ -57,28 +35,27 @@ const About = () => {
       </section>
       <div className="container">
         <section className="skills container">
-          <h3 className="section__subtitle chanceskill subtitle__center animated">
+          <h3 className="section__subtitle chanceskill subtitle__center">
             My Skills
           </h3>
-          <div className="skills container grid animated">
+          <div className="skills container grid">
             <Skills />
           </div>
         </section>
       </div>
-
-      <section className="resume animated">
-        <h3 className="section__subtitle chanceskill subtitle__center animated">
+      <section className="resume">
+        <h3 className="section__subtitle chanceskill subtitle__center">
           Experience & Education
         </h3>
-        <div className="resume__container grid animated">
-          <div className="resume__data animated">
+        <div className="resume__container grid">
+          <div className="resume__data">
             {resume.map((val) => {
               if (val.category === "experience") {
                 return <ResumeItem key={val.id} {...val} />;
               }
             })}
           </div>
-          <div className="resume__data animated">
+          <div className="resume__data">
             {resume.map((val) => {
               if (val.category === "education") {
                 return <ResumeItem key={val.id} {...val} />;

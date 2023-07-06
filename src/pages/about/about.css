@@ -47,25 +47,16 @@
 
 .skills {
   grid-template-columns: repeat(4, 1fr);
-  opacity: 0;
 }
 
 .resume {
-  opacity: 0;
+  opacity: 1;
 }
 
-.resume.animated {
-  animation: fadeIn 0.5s ease-in-out forwards;
-}
-
-.skills.animated {
-  animation: fadeIn 0.5s ease-in-out forwards;
-}
 .section__subtitle.animated {
-  animation: fadeIn 0.5s ease-in-out forwards;
-  animation-delay: 0.2s;
-  opacity: 0;
+  opacity: 1;
 }
+
 .resume__item {
   position: relative;
 }
@@ -82,22 +73,7 @@
 }
 
 .resume__item {
-  opacity: 0;
-}
-
-.resume__item.animated {
-  animation: fadeIn 0.5s ease-in-out forwards;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  opacity: 1;
 }
 
 @media only screen and (max-width: 426px) {

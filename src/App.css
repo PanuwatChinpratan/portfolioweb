@@ -7,7 +7,7 @@
   /* Colors mode HSL (hue, satration*/
   --first-color: hsl(29, 81%, 52%);
   --title-color: hsl(0, 0%, 40%);
-  --text-color: hsl(0, 0%, 50%);
+  --text-color: hsl(0, 1%, 21%);
   --body-color: hsl(0, 0%, 100%);
   --container-color: hsl(0, 0%, 93%);
   --border-color: hsl(0, 0%, 87%);
@@ -65,8 +65,11 @@ textarea {
   font-weight: var(--weight-500);
 }
 body {
-  background-color: var(--body-color);
   color: var(--text-color);
+  background-image: url("./assets/daniele-levis-pelusi-mkMSXR86kYY-unsplash.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed;
 }
 h1,
 h2,

@@ -48,10 +48,15 @@
   }
 
   .modal__close {
-    width: 40px;
-    height: 40px;
+    position: absolute;
+    top: 0;
+    margin-top: 5px;
+    margin-right: 5px;
+    right: 0;
+    height: 35px;
+    filter: invert(0.8);
+    width: 35px;
   }
-
   .form__input-group {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -167,8 +172,14 @@
   }
 
   .modal__close {
-    top: -9%;
+    position: absolute;
+    top: 0;
+    margin-top: 5px;
+    margin-right: 5px;
     right: 0;
+    height: 35px;
+    filter: invert(0.8);
+    width: 35px;
   }
 }
 
@@ -240,6 +251,10 @@
 
   .skills__container {
     padding: 20px;
+  }
+
+  .portfolio__modal-content {
+    padding-bottom: 0px;
   }
 
   .resume__item {

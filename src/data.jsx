@@ -223,7 +223,7 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "HR",
+        desc: "HUMAN",
       },
       {
         icon: <FaCode />,
@@ -241,7 +241,7 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: "E-commerce Booking",
+    title: "Booking",
     details: [
       {
         icon: <FiFileText />,
@@ -251,7 +251,7 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "HR",
+        desc: "HUMAN",
       },
       {
         icon: <FaCode />,
@@ -261,7 +261,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: <a href="https://travel-front-delta.vercel.app/home" target="_blank">BookingTravel</a>,
+        desc: <a href="https://travel-front-delta.vercel.app/home" target="_blank">Booking</a>,
       },
     ],
   },
@@ -269,7 +269,7 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: "E-commerce Store",
+    title: "Milo Store",
     details: [
       {
         icon: <FiFileText />,
@@ -279,7 +279,7 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "HR",
+        desc: "HUMAN",
       },
       {
         icon: <FaCode />,

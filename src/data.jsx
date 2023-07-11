@@ -165,7 +165,7 @@ export const skills = [
   {
     id: 3,
     title: "CSS",
-    percentage: "intermediate",
+    percentage: "(Basic)",
   },
 
   {
@@ -183,7 +183,7 @@ export const skills = [
   {
     id: 6,
     title: "Bootstrap",
-    percentage: "intermediate",
+    percentage: "(Basic)",
   },
 
   {
@@ -206,6 +206,16 @@ export const skills = [
     id: 10,
     title: "Tailwind",
     percentage: "(Basic)",
+  },
+  {
+    id: 11,
+    title: "RESTful API",
+    percentage: "(Basic)",
+  },
+  {
+    id: 12,
+    title: "Typescript",
+    percentage: "(Soon)",
   },
 ];
 

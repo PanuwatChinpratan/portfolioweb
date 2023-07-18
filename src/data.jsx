@@ -249,34 +249,6 @@ export const portfolio = [
   },
 
   {
-    id: 2,
-    img: Work2,
-    title: "Booking",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Website",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "HUMAN",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "React.js",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: <a href="https://travel-front-delta.vercel.app/home" target="_blank">Booking</a>,
-      },
-    ],
-  },
-
-  {
     id: 3,
     img: Work3,
     title: "Milo Store",
